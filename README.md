@@ -1,6 +1,6 @@
 # DDPG and TD3 with Prioritized Experience Replay
 
-PyTorch implementations of Twin Delayed Deep Deterministic Policy Gradients (TD3) and Deep Deterministic Policy Gradients (DDPG), based on [codes](https://github.com/sfujim/TD3/) for DDPG and TD3 (plus some tweaks to make them work on Python3), OpenAI's [code](https://arxiv.org/abs/1511.05952) for an efficient implementation of Prioritized Experience Replay (PER) (with some tweaks), and using some [common baselines](https://github.com/openai/baselines/blob/master/baselines/common/) from OpenAI gym.
+PyTorch implementations of both Twin Delayed Deep Deterministic Policy Gradients (TD3) and Deep Deterministic Policy Gradients (DDPG), based on [codes](https://github.com/sfujim/TD3/) for DDPG and TD3 (plus some tweaks to make them work on Python3), OpenAI's [code](https://arxiv.org/abs/1511.05952) for an efficient implementation of Prioritized Experience Replay (PER) (with some tweaks), and using some [common baselines](https://github.com/openai/baselines/blob/master/baselines/common/) from OpenAI gym.
 
 
 Method is tested on continuous control tasks in [OpenAI gym](https://github.com/openai/gym). 
